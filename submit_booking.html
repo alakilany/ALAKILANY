@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <link rel="stylesheet" href="../static/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تأكيد الحجز - Dr. Alaa Alkilany</title>
+</head>
+<body>
+
+    <header>
+        <h1>تأكيد الحجز</h1>
+        <p><a href="/">العودة للرئيسية</a></p>
+    </header>
+
+    <main>
+        <p>تم تأكيد حجزك بنجاح!</p>
+
+        <p>تفاصيل الحجز:</p>
+
+        <ul>
+            <li><strong>الاسم:</strong> {{ customer_name }}</li>
+            <li><strong>التاريخ:</strong> {{ appointment_date }}</li>
+            <li><strong>الوقت:</strong> {{ appointment_time }}</li>
+        </ul>
+
+        <p>سيتم التواصل معك قريباً لتأكيد الموعد.</p>
+    </main>
+
+    <footer>
+        <p>روابط الصفحات الأخرى:</p>
+
+        <ul>
+            <li><a href="/booking">صفحة الحجز</a></li>
+            <li><a href="/services">صفحة الخدمات</a></li>
+            <li><a href="/contact">صفحة الاتصال</a></li>
+        </ul>
+        <p>جميع الحقوق محفوظة &copy; 2025 Dr. Alaa Alkilany</p>
+    </footer>
+
+</body>
+</html>

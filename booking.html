@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <link rel="stylesheet" href="../static/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حجز موعد - Dr. Alaa Alkilany</title>
+    </head>
+<body>
+
+    <header>
+        <h1>حجز موعد</h1>
+    <p><a href="/">العودة للرئيسية</a></p>
+    </header>
+
+    <main>
+        <p>يرجى ملء النموذج التالي لحجز موعدك. (ملاحظة: المواعيد حالياً عبر Zoom).</p>
+        <form action="/submit_booking" method="post">
+            <div>
+                <label for="name">الاسم:</label><br>
+                <input type="text" id="name" name="customer_name" required>
+            </div>
+            <br>
+            <div>
+                <label for="booking_date">التاريخ المطلوب:</label><br>
+                <input type="date" id="booking_date" name="appointment_date" required>
+            </div>
+            <br>
+            <div>
+                <label for="booking_time">الوقت المطلوب:</label><br>
+                <input type="time" id="booking_time" name="appointment_time" required>
+            </div>
+            <br>
+
+            <button type="submit">تأكيد الحجز</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2025 Dr. Alaa Alkilany</p>
+    </footer>
+
+</body>
+</html>

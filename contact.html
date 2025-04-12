@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <link rel="stylesheet" href="../static/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل مع د. علاء الكيلاني</title>
+</head>
+<body>
+
+    <header>
+        <h1>تواصل مع د. علاء الكيلاني</h1>
+    </header>
+
+    <main>
+        <p>يمكنك التواصل معنا عبر البريد الإلكتروني:</p>
+        <p><a href="mailto:alakilany@yahoo.com">alakilany@yahoo.com</a></p>
+
+        <p>أو عبر الهاتف:</p>
+        <p>00966554062456</p>
+
+        <p>أو عبر النموذج التالي:</p>
+
+        <form action="/send_contact_form" method="post">
+            <label for="name">الاسم:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">البريد الإلكتروني:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">الرسالة:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="إرسال">
+        </form>
+    </main>
+
+    <footer>
+        <p>روابط الصفحات الأخرى:</p>
+
+        <ul>
+            <li><a href="/booking">صفحة الحجز</a></li>
+            <li><a href="/services">صفحة الخدمات</a></li>
+            <li><a href="/contact">صفحة الاتصال</a></li>
+        </ul>
+        <p>جميع الحقوق محفوظة &copy; 2025 Dr. Alaa Alkilany</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+h1 {
+    background-color: blue;
+    color: white; /* لجعل النص أبيضًا على الخلفية الزرقاء */
+    text-align: center; /* لتوسيط النص داخل العنوان */
+    padding: 20px; /* لإضافة مساحة حول النص */
+    margin: 0 auto; /* لتوسيط العنوان أفقيًا */
+    width: 80%; /* تحديد عرض العنوان (يمكن تعديله) */
+}
+
+body {
+    display: flex; /* لتمكين استخدام flexbox */
+    flex-direction: column; /* لترتيب العناصر عموديًا */
+    min-height: 100vh; /* لضمان أن الجسم يملأ ارتفاع الشاشة */
+    margin: 0; /* لإزالة الهوامش الافتراضية */
+}
+
+main {
+    flex: 1; /* لجعل main يملأ المساحة المتبقية */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* لتوسيط المحتوى عموديًا */
+    align-items: center; /* لتوسيط المحتوى أفقيًا */
+}
